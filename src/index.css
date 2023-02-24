@@ -1,11 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: #212121;
 }
 
@@ -24,9 +25,14 @@ body {
   text-align: center;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="number"] {
   width: 20rem;
+  margin-top: 0.5rem;
   padding: 0.7rem 0.6rem;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
   font-size: 1rem;
 }
 
@@ -34,6 +40,7 @@ button.add-btn {
   width: 20rem;
   margin-top: 1rem;
   padding: 0.7rem 0.6rem;
+  border-radius: 0.3rem;
   border: none;
   outline: none;
   background-color: cornflowerblue;
